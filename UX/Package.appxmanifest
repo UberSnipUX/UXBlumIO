@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e1606b33-bfb0-4a65-bbfd-c3899b20ea31"
-    Publisher="CN=montrayd"
+    Name="6c9ac4d2-0c0f-403c-ae92-1a60ae30e8a6"
+    Publisher="CN=MontrayDavis"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e1606b33-bfb0-4a65-bbfd-c3899b20ea31" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="6c9ac4d2-0c0f-403c-ae92-1a60ae30e8a6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UXBlumIO</DisplayName>
-    <PublisherDisplayName>montrayd</PublisherDisplayName>
+    <DisplayName>UberSnipApp</DisplayName>
+    <PublisherDisplayName>MontrayDavis</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="UXBlumIO.App">
+      EntryPoint="UberSnipApp.App">
       <uap:VisualElements
-        DisplayName="UXBlumIO"
+        DisplayName="UberSnipApp"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UXBlumIO"
+        Description="UberSnipApp"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

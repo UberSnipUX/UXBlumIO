@@ -6,7 +6,8 @@
 #include "pch.h"
 #include "MainPage.xaml.h"
 
-using namespace UXBlumIO;
+
+using namespace UberSnipApp;
 
 using namespace Platform;
 using namespace Windows::ApplicationModel;
